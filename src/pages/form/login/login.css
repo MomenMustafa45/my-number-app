@@ -1,0 +1,116 @@
+.login-section {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.social-login {
+  margin: 10px 0;
+}
+
+.text-login {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px 0 20px 0;
+  position: relative;
+}
+
+.text-login::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: #000;
+  top: 0;
+  right: 0;
+  border-radius: 9px;
+}
+
+.text-login::before {
+  content: "or";
+  position: absolute;
+  top: -11px;
+  right: 50%;
+  transform: translateX(50%);
+  z-index: 999;
+  border-radius: 50%;
+
+  background-color: #eee;
+  padding: 0 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-icons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 25px;
+}
+
+.icons-page a {
+  cursor: pointer;
+}
+
+/* Form */
+/* Form */
+
+.login-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-section form input {
+  font-size: 20px;
+  padding: 6px 25px;
+  border-radius: 14px;
+  border: 2px solid #c9aeae;
+  margin: 5px 0;
+}
+
+.login-section form input:focus {
+  outline: none;
+}
+
+.remember-box {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  align-items: center;
+  color: #c29c9c;
+}
+.remember-box * {
+  cursor: pointer;
+}
+.remember-box input {
+  width: 12px;
+  margin-right: 4px !important;
+}
+
+.login-section form .submit-btn {
+  padding: 10px;
+  margin: 25px 0;
+  width: 50%;
+  align-self: center;
+  border: none;
+  background-color: #91d891;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.login-section form .sign-up-msg {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+/* Form */
+/* Form */
+
+/*  */

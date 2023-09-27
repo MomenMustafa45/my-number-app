@@ -1,0 +1,13 @@
+.social-connect-link {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0;
+  padding: 10px 20px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 0px 9px -1px #730808;
+}

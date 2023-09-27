@@ -3,16 +3,22 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AppLayout from "./components/layout/AppLayout";
 import Blank from "./pages/blank/Blank";
+import Register from "./pages/form/register/Register";
+import Login from "./pages/form/login/Login";
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<AppLayout />}>
           <Route index element={<Blank />} />
-          <Route path="/started" element={<Blank />} />
-          <Route path="/calendar" element={<Blank />} />
-          <Route path="/user" element={<Blank />} />
-          <Route path="/order" element={<Blank />} />
+          <Route path="/quick-order" element={<Blank />} />
+          <Route path="/order-number" element={<Blank />} />
+          <Route path="/sms-log" element={<Blank />} />
+          <Route path="/rental-log" element={<Blank />} />
+          <Route path="/payment" element={<Blank />} />
+          <Route path="/pricing" element={<Blank />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
         </Route>
       </Routes>
     </BrowserRouter>
