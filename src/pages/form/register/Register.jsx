@@ -2,6 +2,7 @@ import { faArrowRightToBracket } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import SectionIcons from "../../../components/section-icons/SectionIcons";
 import SocialConnect from "../../../components/social-connect/SocialConnect";
 import "./register.css";
 
@@ -39,12 +40,21 @@ const Register = () => {
           Already have an account? <a href="/">Sign in</a>
         </p>
       </form>
-      <div className="register-icons">
+      {/* <div className="register-icons">
         <Link to="/register">Guest Login</Link>
         <Link to="/register">
           <FontAwesomeIcon icon={faArrowRightToBracket} />
         </Link>
-      </div>
+      </div> */}
+
+      <SectionIcons>
+        <Link to="/register" className="section-icon-btn">
+          Guest Login
+        </Link>
+        <Link to="/register">
+          <FontAwesomeIcon icon={faArrowRightToBracket} />
+        </Link>
+      </SectionIcons>
     </section>
   );
 };

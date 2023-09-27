@@ -2,6 +2,7 @@ import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import SectionIcons from "../../../components/section-icons/SectionIcons";
 import SocialConnect from "../../../components/social-connect/SocialConnect";
 import "./login.css";
 
@@ -46,11 +47,11 @@ const Login = () => {
           Don't have an account? <a href="/">Sign up</a>
         </p>
       </form>
-      <div className="login-icons">
+      <SectionIcons>
         <Link to="/register">
           <FontAwesomeIcon icon={faUserPlus} />
         </Link>
-      </div>
+      </SectionIcons>
     </section>
   );
 };

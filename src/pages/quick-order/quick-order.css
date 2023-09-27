@@ -1,0 +1,47 @@
+.quick-order-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+.quick-order-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 80%;
+}
+
+.quick-order-table .quick-order-table-header {
+  display: flex;
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.quick-order-table .quick-order-table-header .header-row-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.quick-order-table-body {
+  display: block;
+  border-top: 1rem solid transparent;
+}
+
+.quick-order-table .header-row-box th {
+  width: 25%;
+}
+
+.quick-order-table .body-row-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 10px;
+  border: 2px solid black;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.quick-order-table .body-row-box td {
+  width: 25%;
+  text-align: center;
+}

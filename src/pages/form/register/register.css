@@ -87,16 +87,7 @@
 /* Form */
 /* Form */
 
-.register-icons {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-size: 25px;
-  display: flex;
-  align-items: center;
-}
-
-.register-icons a:first-child {
+.section-icon-btn {
   margin-right: 20px;
   font-size: 15px;
   font-weight: bold;

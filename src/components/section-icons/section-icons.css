@@ -1,0 +1,13 @@
+.section-icons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.section-icons a {
+  margin-right: 15px;
+}

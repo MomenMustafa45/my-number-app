@@ -5,13 +5,14 @@ import AppLayout from "./components/layout/AppLayout";
 import Blank from "./pages/blank/Blank";
 import Register from "./pages/form/register/Register";
 import Login from "./pages/form/login/Login";
+import QuickOrder from "./pages/quick-order/QuickOrder";
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<AppLayout />}>
           <Route index element={<Blank />} />
-          <Route path="/quick-order" element={<Blank />} />
+          <Route path="/quick-order" element={<QuickOrder />} />
           <Route path="/order-number" element={<Blank />} />
           <Route path="/sms-log" element={<Blank />} />
           <Route path="/rental-log" element={<Blank />} />
