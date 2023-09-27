@@ -1,4 +1,4 @@
-import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
+import { faUser, faUserPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -47,11 +47,7 @@ const Login = () => {
           Don't have an account? <a href="/">Sign up</a>
         </p>
       </form>
-      <SectionIcons>
-        <Link to="/register">
-          <FontAwesomeIcon icon={faUserPlus} />
-        </Link>
-      </SectionIcons>
+      <SectionIcons children={[faUserPlus]} />
     </section>
   );
 };

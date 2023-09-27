@@ -47,14 +47,7 @@ const Register = () => {
         </Link>
       </div> */}
 
-      <SectionIcons>
-        <Link to="/register" className="section-icon-btn">
-          Guest Login
-        </Link>
-        <Link to="/register">
-          <FontAwesomeIcon icon={faArrowRightToBracket} />
-        </Link>
-      </SectionIcons>
+      <SectionIcons children={[faArrowRightToBracket]} btns={["Guest Login"]} />
     </section>
   );
 };

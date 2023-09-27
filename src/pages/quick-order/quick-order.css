@@ -35,10 +35,12 @@
 .quick-order-table .body-row-box {
   display: flex;
   justify-content: space-between;
-  padding: 18px 10px;
+  padding: 12px 10px;
   border: 2px solid black;
   width: 100%;
   margin: 10px 0;
+  border-radius: 10px;
+  align-items: center;
 }
 
 .quick-order-table .body-row-box td {
