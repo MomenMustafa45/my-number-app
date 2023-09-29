@@ -24,8 +24,8 @@
   display: flex;
   align-items: center;
   place-content: flex-start;
-  padding: 1rem 3rem;
-  font-size: 1.25rem;
+  padding: 9px 50px;
+  font-size: 18px;
   font-weight: 500;
   color: #555555;
   transition: color 0.3s ease-in-out;
@@ -42,7 +42,7 @@
 }
 
 .sidebar_menu_item_icon i {
-  font-size: 1.75rem;
+  font-size: 18px;
 }
 
 .sidebar_menu_indicator {
@@ -81,9 +81,8 @@
 
 .inner-menu-item .number-container {
   display: flex;
-  font-size: 18px;
+  font-size: 15px;
   align-items: center;
-  z-index: 99999;
 }
 
 .inner-menu-item .number-container p:first-child {
