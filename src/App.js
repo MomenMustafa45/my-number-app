@@ -6,6 +6,7 @@ import Blank from "./pages/blank/Blank";
 import Register from "./pages/form/register/Register";
 import Login from "./pages/form/login/Login";
 import QuickOrder from "./pages/quick-order/QuickOrder";
+import Payment from "./pages/payment/Payment";
 function App() {
   return (
     <BrowserRouter>
@@ -16,7 +17,7 @@ function App() {
           <Route path="/order-number" element={<Blank />} />
           <Route path="/sms-log" element={<Blank />} />
           <Route path="/rental-log" element={<Blank />} />
-          <Route path="/payment" element={<Blank />} />
+          <Route path="/payment" element={<Payment />} />
           <Route path="/pricing" element={<Blank />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />

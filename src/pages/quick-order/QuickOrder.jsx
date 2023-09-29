@@ -51,7 +51,9 @@ const QuickOrder = () => {
                     })}
                   </select>
                 </td>
-                <td>Order</td>
+                <td>
+                  <p>Order</p>
+                </td>
               </tr>
             );
           })}

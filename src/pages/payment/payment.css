@@ -1,0 +1,183 @@
+.payment-section {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* removing arrows inside the inputs */
+.payment-section input::-webkit-outer-spin-button,
+.payment-section input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.payment-section input[type="number"] {
+  -moz-appearance: textfield;
+}
+/* removing arrows inside the inputs */
+
+/* Buttons */
+/* Buttons */
+
+.payment-section .btns-box {
+  padding: 25px 0;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-section .btns-box button {
+  width: 140px;
+  padding: 6px 0;
+  margin: 0 15px;
+  border-radius: 21px;
+  outline: none;
+  background-color: beige;
+  border: 1px solid red;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.payment-section .btns-box button:first-child {
+  border: none;
+  background-color: burlywood;
+}
+
+/* Buttons */
+/* Buttons */
+
+/* Calc */
+/* Calc */
+
+.payment-section .calc-box {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 60%;
+  justify-content: space-between;
+  padding: 25px 12px 35px 12px;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+}
+
+.payment-section .calc-box div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.payment-section .calc-box input {
+  width: 75px;
+  padding: 4px 0;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 7px;
+  border: 1px solid red;
+  background-color: aquamarine;
+  text-align: center;
+  outline: none;
+}
+
+.payment-section .calc-box div label {
+  margin-top: 8px;
+  font-weight: bold;
+  position: absolute;
+  top: 30px;
+}
+
+.payment-section .calc-box .total {
+  width: 75px;
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 7px;
+  border: 1px solid red;
+  background-color: aquamarine;
+  text-align: center;
+  outline: none;
+}
+
+.payment-section .calc-box p {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Calc */
+/* Calc */
+
+/* Process Box */
+/* Process Box */
+.processes-box {
+  width: 62%;
+}
+
+.processes-box .done-process {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.processes-box .done-process .process-type {
+  padding: 6px 20px;
+  background-color: #d29f9f;
+  border-radius: 8px;
+}
+
+.processes-box .done-process .process-value {
+  padding: 5px 20px;
+  border: 2px solid;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.processes-box .process-token {
+  border: 1px solid;
+  width: 35%;
+  padding: 5px 10px;
+  border-radius: 12px;
+  outline: none;
+}
+
+.processes-box .process-plus {
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.processes-box .add-process-box {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.processes-box .add-process-box select {
+  padding: 6px 8px;
+  border-radius: 8px;
+  border: 2px solid;
+}
+
+.processes-box .add-process-box .process-value-input {
+  width: 64px;
+  padding: 5px;
+  border: 2px solid;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+  outline: none;
+  text-align: center;
+}
+
+/* Process Box */
+/* Process Box */

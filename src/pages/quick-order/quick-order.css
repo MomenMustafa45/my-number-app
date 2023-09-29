@@ -43,7 +43,23 @@
   align-items: center;
 }
 
+.quick-order-table .body-row-box select {
+  border: none;
+  background-color: wheat;
+  padding: 5px;
+  border-radius: 6px;
+}
 .quick-order-table .body-row-box td {
   width: 25%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.quick-order-table .body-row-box td:last-child p {
+  padding: 6px;
+  background-color: #c0a3a3;
+  width: 50%;
+  border-radius: 15px;
+  cursor: pointer;
 }
