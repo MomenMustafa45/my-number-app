@@ -9,6 +9,7 @@ import {
   faHeadphonesSimple,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
+import SectionBtns from "../../components/sections-btns/SectionBtns";
 
 const Payment = () => {
   const [bonus, setBonus] = useState(0.0);
@@ -24,10 +25,8 @@ const Payment = () => {
       <SectionIcons
         children={[faArrowRightFromBracket, faHeadphonesSimple, faUser, faBell]}
       />
-      <div className="btns-box">
-        <button>Manual</button>
-        <button>Automatic</button>
-      </div>
+
+      <SectionBtns firstBtnName="Manual" secondBtnName="Automatic" />
 
       <div className="calc-box">
         <div>

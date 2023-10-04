@@ -1,0 +1,23 @@
+.pagination-container {
+  display: flex;
+  align-self: self-start;
+  padding: 0 10px;
+}
+
+.pagination-container p {
+  border: 1px solid;
+  font-size: 14px;
+  margin: 0 8px;
+  padding: 2px 3px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination-container .pagintaion-nums {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}

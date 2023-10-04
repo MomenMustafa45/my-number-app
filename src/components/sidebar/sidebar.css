@@ -1,7 +1,7 @@
 .sidebar {
   height: 100vh;
   width: 320px;
-  background-color: #fff;
+  background-color: var(--main-bg-color);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -27,9 +27,10 @@
   padding: 9px 50px;
   font-size: 18px;
   font-weight: 500;
-  color: #555555;
+  color: #000;
   transition: color 0.3s ease-in-out;
   cursor: pointer;
+  font-weight: bold;
   z-index: 999;
 }
 
@@ -64,7 +65,7 @@
 
 .sidebar_menu_item span {
   position: absolute;
-  background-color: #308efe;
+  background-color: var(--main-focused-color);
   top: 0;
   right: 50%;
   width: 80%;
