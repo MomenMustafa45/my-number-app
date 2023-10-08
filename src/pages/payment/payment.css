@@ -90,8 +90,8 @@
 }
 
 .payment-section .calc-box .total {
-  width: 75px;
-  padding: 5px 0;
+  min-width: 75px;
+  padding: 5px;
   font-size: 18px;
   font-weight: bold;
   border-radius: 7px;

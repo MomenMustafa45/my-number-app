@@ -1,0 +1,71 @@
+.sms-log-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.sms-log-section .smslog-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 80%;
+}
+
+.sms-log-section .smslog-table .header-row-box {
+  background-color: var(--main-border-color);
+}
+
+.sms-log-section .smslog-table .header-row-box th {
+  padding: 10px 15px;
+  border: solid 1px #000;
+  width: 25%;
+  text-align: start;
+}
+
+.sms-log-section .smslog-table .header-row-box th:first-child {
+  border-radius: 10px 0 0 10px;
+}
+.sms-log-section .smslog-table .header-row-box th:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.sms-log-section .smslog-table .header-row-box th:nth-child(2),
+.sms-log-section .smslog-table .header-row-box th:nth-child(3),
+.sms-log-section .smslog-table .header-row-box th:nth-child(4) {
+  border-left: none;
+}
+
+.sms-log-section .smslog-table .header-row-box th:nth-child(1),
+.sms-log-section .smslog-table .header-row-box th:nth-child(2),
+.sms-log-section .smslog-table .header-row-box th:nth-child(3) {
+  border-right: none;
+}
+
+/* table Body */
+.smslog-table .smslog-table-body-box tr td {
+  padding: 10px 15px;
+  width: 25%;
+}
+
+.smslog-table .smslog-table-body-box tr .show-btn,
+.smslog-table .smslog-table-body-box tr .check-btn {
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: fit-content;
+  padding: 8px 10px;
+  border-radius: 25px;
+  margin-left: -10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.smslog-table .smslog-table-body-box tr .check-btn {
+  background-color: var(--main-bg-color);
+  margin-left: 0;
+}
+
+/* table Body */
